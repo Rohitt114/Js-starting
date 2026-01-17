@@ -21,10 +21,12 @@ true <=> 1
 false <=> 0
 */
 
+
 let isLoggedIn = 0
 console.log(typeof isLoggedIn);
 
-let isLoggedIn2 = Booleannode basics_01/conversion_operation.js(isLoggedIn)
+let isLoggedIn2 = Boolean(isLoggedIn)
 console.log(isLoggedIn2);
+
 
 
