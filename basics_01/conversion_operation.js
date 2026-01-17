@@ -30,3 +30,26 @@ console.log(isLoggedIn2);
 
 
 
+/*
+
+Boolean(0)        // false
+Boolean(1)        // true
+Boolean("")       // false
+Boolean("hello")  // true
+Boolean(null)     // false
+Boolean(undefined)// false
+
+*/
+
+// ****************** OPERATIONS *******************
+
+let int = 4
+let negInt = -int
+//console.log(negInt);
+
+
+let str1 = "hello"
+let str2 = "world"
+let str3 = str1 = str2
+console.log(str3);
+
